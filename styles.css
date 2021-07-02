@@ -417,3 +417,105 @@ h5 {
     margin: 3rem;
     color: #000;
 }
+
+/* MEDIA RESPONSIVENESS */
+
+@media(max-width:1200px) {
+    .banner h1 {
+        font-size: 6rem;
+    }
+    .banner p {
+        font-size: 2.8rem;
+    }
+    .banner button {
+        font-size: 1.8rem;
+    }
+    .sectionheading {
+        font-size: 6rem;
+    }
+    .subheading {
+        font-size: 3rem;
+    }
+    .btn-two {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:1000px) {
+    #hambtn {
+        font-size: 4rem;
+        position: absolute;
+        right: -4rem;
+    }
+    .container3 {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position-y: -10rem;
+    }
+}
+
+@media(max-width:900px) {
+    #hambtn {
+        font-size: 4rem;
+        position: absolute;
+        right: -6rem;
+    }
+}
+
+@media(max-width:700px) {
+    .banner h1 {
+        font-size: 4rem;
+    }
+    .banner p {
+        font-size: 1.6rem;
+    }
+    .banner button {
+        font-size: 1rem;
+    }
+    .btn-one {
+        max-width: 15rem;
+        max-height: 3.5rem;
+    }
+    .sectionheading {
+        font-size: 6rem;
+    }
+    .subheading {
+        font-size: 3rem;
+    }
+    .btn-two {
+        font-size: 1.8rem;
+    }
+    .card {
+        height: 53rem;
+    }
+    .description {
+        font-size: 1.6rem;
+    }
+    h5 {
+        font-size: 3rem;
+    }
+    .social-icon2 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:500px) {
+    h5 {
+        font-size: 2rem;
+    }
+    .social-icon2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:425px) {
+    #hambtn {
+        font-size: 3.5rem;
+        position: absolute;
+        right: -8.5rem;
+    }
+    .card {
+        height: 54rem;
+    }
+}
