@@ -260,18 +260,22 @@ body {
 
 .burger2 {
     background-image: url(images/burger2.jpg);
+    background-repeat: no-repeat;
 }
 
 .burger3 {
     background-image: url(images/burger3.jpg);
+    background-repeat: no-repeat;
 }
 
 .burger4 {
     background-image: url(images/burger4.jpg);
+    background-repeat: no-repeat;
 }
 
 .burger5 {
     background-image: url(images/burger5.jpg);
+    background-repeat: no-repeat;
 }
 
 .burgertitle {
@@ -379,21 +383,25 @@ body {
 
 .sweet1 {
     background-image: url(images/sweetness1.jpg);
+    background-repeat: no-repeat;
 }
 
 .sweet2 {
     background-image: url(images/sweetness2.jpg);
     background-position-y: -12rem;
+    background-repeat: no-repeat;
 }
 
 .sweet3 {
     background-image: url(images/sweetness3.jpg);
     background-position-y: -12rem;
+    background-repeat: no-repeat;
 }
 
 .sweet4 {
     background-image: url(images/sweetness4.jpg);
     background-position-y: -10rem;
+    background-repeat: no-repeat;
 }
 
 /* FOOTER */
@@ -519,5 +527,18 @@ h5 {
     }
     .card {
         height: 54rem;
+    }
+    .sectionheading {
+        font-size: 4rem;
+    }
+    .subheading {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    .social-icon2 {
+        font-size: 2rem;
+        margin: 2.3rem;
     }
 }
