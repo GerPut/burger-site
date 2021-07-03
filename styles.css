@@ -544,6 +544,9 @@ h5 {
         font-size: 2rem;
         margin: 2.3rem;
     }
+    .price {
+        margin-bottom: 10px;
+    }
 }
 
 @media(max-width:321px) {
