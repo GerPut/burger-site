@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -102,7 +103,7 @@ body {
 }
 
 .banner p {
-    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.6rem;
     color: #fff;
     margin-bottom: 2rem;
@@ -288,8 +289,9 @@ body {
 .description {
     display: block;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card a {
@@ -349,10 +351,11 @@ body {
 }
 
 .subheading {
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: #fff;
     margin-bottom: 3rem;
     text-shadow: 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-two {
@@ -445,6 +448,9 @@ h5 {
     }
     .subheading {
         font-size: 3rem;
+    }
+    .section2 {
+        flex-wrap: wrap;
     }
     .btn-two {
         font-size: 1.8rem;
